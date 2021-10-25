@@ -1,4 +1,12 @@
 <?php 
+//settings locales
+//$servername = "localhost";
+//$username = "postgres";
+//$password = "12345";
+//$dbname = "databas";
+//$port = 5432;
+
+//settings heroku
 $servername = "localhost";
 $username = "postgres";
 $password = "12345";
