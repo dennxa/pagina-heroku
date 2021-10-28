@@ -30,7 +30,7 @@ if ($conn->connect_error) {
 if($conn->query($query)){
     header("location: crud.php");
 }else{
-    echo "Algo salio mal <a href='crud.php'>Acceder a mi crustaceo</a>";
+    echo "Algo salio mal <a href='https://denilomas.herokuapp.com/crud-postgres/'>Acceder a mi crustaceo</a>";
 }
 
 

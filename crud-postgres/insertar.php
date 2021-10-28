@@ -29,7 +29,7 @@ if (!$conn) {
 if ( pg_query($conn,$query)== TRUE){
     header("location:crud.php");
 }else{
-    echo "Algo salio mal <a href='https://localhost/crud/crud.php'> clic aqui para volver al crud</a>" ;
+    echo "Algo salio mal <a href='https://denilomas.herokuapp.com/crud-postgres/'> clic aqui para volver al crud</a>" ;
 
 }
 
