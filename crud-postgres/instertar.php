@@ -17,10 +17,10 @@ $query ="INSERT INTO table1 (column1,column2,column3,column4,column5)
 VALUES ($id,'$nombre','$fecha',$numero,$numero2);";
 //printf($query);
 
-$servername = "localhost";
-$username = "root";
-$password = "";
-$dbname = "databas";
+$servername = "ec2-18-208-24-104.compute-1.amazonaws.com";
+$username = "qmbtsplubetxjg";
+$password = "f0055bba77fd5f22d770de6119fb88ca75be2985454b001f0d12bc680ca1289d";
+$dbname = "db2bsq925poq2q";
 
 $conn = new mysqli($servername, $username, $password, $dbname);
 // Check connection
